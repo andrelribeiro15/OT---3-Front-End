@@ -1,0 +1,47 @@
+.imagens-home{
+
+    text-align: center;
+    animation: slidein;
+    animation-duration: 3s;
+}
+
+.texto1{
+
+    font-size: x-large;
+    text-align: justify; line-height: 30px;
+    
+
+}
+
+.imagens-sobre{
+
+    text-align: center;
+    animation: slidein;
+    animation-duration: 3s;
+    
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.contato{
+    
+    width: 500px;
+    height: 500px;
+    
+}
+
+.imagens-curri{
+
+    text-align: center;
+    animation: slidein;
+    animation-duration: 3s;
+}
